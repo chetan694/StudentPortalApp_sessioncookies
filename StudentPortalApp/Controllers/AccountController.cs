@@ -4,8 +4,6 @@ namespace StudentPortalApp.Controllers
 {
     public class AccountController : Controller
     {
-       
-
         // GET Login Page
         [HttpGet]
         public IActionResult Login()
@@ -30,7 +28,5 @@ namespace StudentPortalApp.Controllers
 
             return View();
         }
-
-     
     }
 }
